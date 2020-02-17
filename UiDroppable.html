@@ -1,0 +1,43 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+            <link rel="stylesheet" href="/resources/demos/style.css">
+
+            <link rel="stylesheet" href="/home/anr/Downloads/jquery-ui-themes-1.12.1/themes/base/jquery-ui.css">
+            <!-- our file path -->
+
+            
+            <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+            <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+          
+          
+    </head>
+    <body>
+        <div class="container bg-info h-100">
+            <div class="d-flex justify-content-around bg-dark p-2 rounded" style="height: 50px;">
+                <a href="">Home</a>
+                <a href="">Service</a>
+                <a href="">About</a>
+                <a href="">Contacts</a>
+                <a href="">Clients</a>
+            </div>
+            <div class="h-25 w-25 bg-danger rounded text-white p-5 mt-3 " id="anr">
+                Dropped....!
+            </div>
+
+            <div class="h-50 w-50 bg-success rounded text-white p-5" class="ui-widget-content" id="ntr">
+               <p> Fixed...! </p>
+            </div>
+
+        </div>
+    </body>
+        <script>
+    $( "#anr" ).draggable();
+    $( "#ntr" ).droppable()
+      
+  
+        </script>
+</html>

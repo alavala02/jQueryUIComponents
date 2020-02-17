@@ -1,0 +1,63 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+            <link rel="stylesheet" href="/resources/demos/style.css">
+            <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+            <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+            <link rel="stylesheet" href="/home/anr/Downloads/jquery-ui-themes-1.12.1/themes/base/jquery-ui.css">
+            <!-- our file path -->
+    </head>
+    <body>
+        <div class="container h-100 bg-success  widget">
+            <fieldset>
+                    <legend>Radio Buttons </legend>
+                    <label for="radio-1">Male</label>
+                    <input type="radio" name="radio-1" id="radio-1">
+                    <label for="radio-2">Female</label>
+                    <input type="radio" name="radio-1" id="radio-2">
+                    <label for="radio-3">Others</label>
+                    <input type="radio" name="radio-1" id="radio-3">
+            </fieldset>
+            <h2>Checkbox</h2>
+            <fieldset>
+                    <legend>Hobbies: </legend>
+                    <label for="checkbox-1">Cricket</label>
+                    <input type="checkbox" name="checkbox-1" id="checkbox-1">
+                    <label for="checkbox-2">Listening Music</label>
+                    <input type="checkbox" name="checkbox-2" id="checkbox-2">
+                    <label for="checkbox-3">Reading Books</label>
+                    <input type="checkbox" name="checkbox-3" id="checkbox-3">
+                    <label for="checkbox-4">Browseing Net</label>
+                    <input type="checkbox" name="checkbox-4" id="checkbox-4">
+            </fieldset>
+        
+            <h2>Checkbox nested in label</h2>
+            <fieldset>
+                 <legend>Bed Type: </legend>
+                 <label for="checkbox-nested-1">ANR
+                   <input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1">
+                 </label>
+                 <label for="checkbox-nested-2">Karthik
+                   <input type="checkbox" name="checkbox-nested-2" id="checkbox-nested-2">
+                 </label>
+                 <label for="checkbox-nested-3">Vamsi
+                   <input type="checkbox" name="checkbox-nested-3" id="checkbox-nested-3">
+                 </label>
+                 <label for="checkbox-nested-4">Praveen
+                   <input type="checkbox" name="checkbox-nested-4" id="checkbox-nested-4">
+                 </label>
+            </fieldset>
+        
+        </div>
+    </body>
+
+    <script>
+            $( "input" ).checkboxradio();
+
+    </script>
+</html>

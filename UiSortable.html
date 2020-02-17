@@ -1,0 +1,53 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+            <link rel="stylesheet" href="/resources/demos/style.css">
+            <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+            <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+            <link rel="stylesheet" href="/home/anr/Downloads/jquery-ui-themes-1.12.1/themes/base/jquery-ui.css">
+            <!-- our file path -->
+
+            <style>
+            li{
+                list-style: none;
+                width: 40%;
+            }
+            </style>
+
+    </head>
+    <body>
+        <div class="container bg-danger h-50">
+
+                <div class="d-flex justify-content-around bg-dark p-2 rounded" style="height: 50px;">
+                        <a href="">Home</a>
+                        <a href="">Service</a>
+                        <a href="">About</a>
+                        <a href="">Contacts</a>
+                        <a href="">Clients</a>
+                </div>
+
+            <ul id="anr" class="h-50 mt-3">
+                    <li class="ui-state-default p-2"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Orange-1</li>
+                    <li class="ui-state-default p-2"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Orange-2</li>
+                    <li class="ui-state-default p-2"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Orange-3</li>
+                    <li class="ui-state-default p-2"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Orange-4</li>
+                    <li class="ui-state-default p-2"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Orange-5</li>
+                    <li class="ui-state-default p-2"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Orange-6</li>
+                    <li class="ui-state-default p-2"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Orange-7</li>
+                  
+            </ul>
+
+        </div>
+    </body>
+    <script>
+        $( "#anr" ).sortable();
+        $( "#anr" ).disableSelection();
+
+    </script>
+
+</html>

@@ -1,0 +1,56 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+            <link rel="stylesheet" href="/home/anr/Downloads/jquery-ui-themes-1.12.1/themes/base/jquery-ui.css">
+            <!-- our file path -->
+
+    
+            <link rel="stylesheet" href="/resources/demos/style.css">
+            
+            <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+            <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+        <style>
+            li{
+                list-style: none;
+                background-color: burlywood;
+            }
+            #anr .ui-selecting { background: #FECA40; }
+            #anr .ui-selected { background: #F39814; color: white; }
+        </style>
+    </head>
+    <body>
+        <div class="container bg-info h-75">
+                <div class="d-flex justify-content-around bg-warning p-2 rounded" style="height: 50px;">
+                        <a href="">Home</a>
+                        <a href="">Service</a>
+                        <a href="">About</a>
+                        <a href="">Contacts</a>
+                        <a href="">Clients</a>
+                </div>
+            <ol id="anr" class="h-25 p-4">
+                <li class="ui-widget-content p-1">Apple-1</li>
+                <li class="ui-widget-content p-1">Apple-2</li>
+                <li class="ui-widget-content p-1">Apple-3</li>
+                <li class="ui-widget-content p-1" >Apple-4</li>
+                <li class="ui-widget-content p-1">Apple-5</li>
+                <li class="ui-widget-content p-1">Apple-6</li>
+                <li class="ui-widget-content p-1">Apple-7</li>
+                <li class="ui-widget-content p-1">Apple-8</li>
+                <li class="ui-widget-content p-1">Apple-9</li>
+                <li class="ui-widget-content p-1" >Apple-10</li>
+                <li class="ui-widget-content p-1">Apple-11</li>
+                <li class="ui-widget-content p-1">Apple-12</li>
+            </ol>
+        </div>
+
+
+        <script>
+            $("#anr").selectable();
+        </script>
+    </body>
+</html>
